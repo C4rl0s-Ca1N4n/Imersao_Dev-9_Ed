@@ -10,6 +10,8 @@ Vamos mergulhar nos conceitos de lógica de programação, Javascript, HTML e CS
 ## Desafios desta aula
 - Trocar a imagem de fundo
 - Fazer conversor para dólares e euros
-- Formatar o valor resultante no formato "1.000.000,00", para facilitar a leitura. 
+- Formatar o valor resultante no formato "1.000.000,00", para facilitar a leitura.
 
-## [Resultado Aula 1]()
+<img src="Imagens/Aula 1.png" width="800" />
+
+## [Resultado Aula 1](https://github.com/C4rl0s-Ca1N4n/Imersao_Dev-9_Ed/tree/main/Aula%201)
