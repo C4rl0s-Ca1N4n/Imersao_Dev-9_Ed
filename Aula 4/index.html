@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Imersão DEV_ 04</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="logo">
+    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo da Imersão Dev" />
+  </div>
+
+  <div class="titulo">
+    <h2>Heróis ou Vilões</h2>
+    <p> Uma luta eterna entre o bem e o mal. </p>
+  </div>
+
+  <main class="conteudo-jogo">
+    <div class="container">
+        <h1>Escolha seus personagens para a batalha.</h1>
+        <p>Selecione 3 personagens</p>
+        <select id="personagemSelect">
+            <option value="Guerreiro">Guerreiro</option>
+            <option value="Mago">Mago</option>
+            <option value="Arqueiro">Arqueiro</option>
+            <option value="Paladino">Paladino</option>
+            <option value="Ninja">Ninja</option>
+            <option value="Viking">Viking</option>
+            <option value="Samurai">Samurai</option>
+            <option value="Feiticeiro">Feiticeiro</option>
+            <option value="Bárbaro">Bárbaro</option>
+            <option value="Cavaleiro">Cavaleiro</option>
+        </select>
+        <button onclick="adicionarPersonagem()">Adicionar</button>
+        <p id="personagensEscolhidos"></p>
+        <div id="imagensPersonagens" class="character-images"></div>
+        <button class="battle-button" onclick="iniciarBatalha()"></button>
+        <p id="resultado"></p>
+        <button id="tenteNovamente" onclick="reiniciarJogo()" style="display: none;">Tente Novamente</button>
+    </div>
+  </main>
+<footer>Alura - Imersão DEV - 2025</footer>
+</body>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
